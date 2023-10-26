@@ -1,12 +1,19 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+:root .theme_dark{
+  --accent-color: #ff0070;
+  --basic-color: #ff0070;
+  --title-color: #DB00FF;
+  --side-text-color: #000028;
+  --side2-text-color: #F1B2CE;
+  --rgba-outline: rgba(255, 0, 112, 0.40);
+  --link-personalization-color: #F1B2CE;
+}
+
+@media (prefers-color-scheme: dark) {
+    .page{
+      background-image: url("../images/cover-image-dark.png");
+    }
+}
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  background-image: url("../images/cover-image-dark.png");
 }
