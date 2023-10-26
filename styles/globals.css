@@ -15,15 +15,10 @@ body {
   font-size: 18px;
 }
 
-body::before {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 25px;
-  height: 25px;
-  border-top: 1px solid var(--basic-color);
-  border-right: 1px solid var(--basic-color);
+@media (width <= 375px) {
+  body {
+    padding: 10px;
+  }
 }
 
 h1,

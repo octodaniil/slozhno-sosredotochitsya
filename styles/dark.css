@@ -1,4 +1,4 @@
-:root .theme_dark{
+:root .theme_dark {
   --accent-color: #ff0070;
   --basic-color: #ff0070;
   --title-color: #DB00FF;
@@ -9,7 +9,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .page{
+    .page {
       background-image: url("../images/cover-image-dark.png");
     }
 }

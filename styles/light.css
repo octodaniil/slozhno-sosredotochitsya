@@ -20,12 +20,12 @@
     --link-personalization-color: #353430;
     }
 
-    .page{
+    .page {
       background-image: url("../images/cover-image-light.png");
     }
 }
 
-.page.theme_light{
+.page.theme_light {
   background-image: url("../images/cover-image-light.png");
 }
 
